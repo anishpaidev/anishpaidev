@@ -1,0 +1,25 @@
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+autocmd FileType c setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+set number
+set showmatch
+syntax on
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+nnoremap <Esc> :nohlsearch<CR>
+nnoremap j h
+nnoremap k j
+nnoremap i k
+nnoremap h i
+vnoremap j h
+vnoremap k j
+vnoremap i k
+vnoremap h i
+nnoremap w :wq<CR>
+nnoremap q :q<CR>
